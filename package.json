@@ -3,7 +3,9 @@
   "version": "0.0.1",
   "description": "",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "gulp",
+    "svg": "gulp svgmin"
   },
   "repository": {
     "type": "git",
@@ -15,5 +17,11 @@
     "url": "https://github.com/nicothin/svg-icon__data-uri/issues"
   },
   "homepage": "https://github.com/nicothin/svg-icon__data-uri",
-  "devDependencies": {}
+  "devDependencies": {},
+  "dependencies": {
+    "gulp": "github:gulpjs/gulp#4.0",
+    "gulp-less": "^3.3.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-svgmin": "^1.2.3"
+  }
 }
